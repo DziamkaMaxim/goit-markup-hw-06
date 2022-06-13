@@ -368,23 +368,51 @@
           </li>
         </ul>
         </div>
+        <div class="footer-email">
+          <h3 class="footer-email-text">Подпишитесь на рассылку</h3>
+          <label for="email">
+            <input type="email" name="footer-email" class="footer-email-inp" placeholder="E-mail">
+          </label>
+          <button class="footer-subscribe">Подписаться <svg class="footer-telegram" width="24" height="24"> <use href="./images/icons.svg#icon-icon-telegram"></use>  
+          </svg></button> 
+        </div>
       </div>
 
     </footer>
     <!-- Backdrop -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p>
-    
-        </p>
-        <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg" class="modal-close" data-modal-close>
+        
+        <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg" class="modal-close" data-modal-close >
           <circle cx="15" cy="15" r="15" fill="#fff" />
           <circle cx="15" cy="15" r="14.5" stroke="#000" stroke-opacity=".1" />
           <path
             d="M21 10.108 19.892 9 15.5 13.392 11.108 9 10 10.108l4.392 4.392L10 18.892 11.108 20l4.392-4.392L19.892 20 21 18.892 16.608 14.5 21 10.108Z"
             fill="#000" />
         </svg>
+        <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+        <label class="modal-form">
+          <span class="modal-text">Имя</span>
+          <svg class="footer-name-svg" width="12" height="12">
+            <use href="./images/icons.svg#icon-icon-name"></use>
+          </svg>
+          <input type="name" class="modal-types" >
+        </label>
+        <label class="modal-form">
+          <input type="tel" class="modal-types">
+        </label>
+        <label class="modal-form">
+          <input type="email" class="modal-types">
+        </label>
+        <label class="modal-form">
+          <input type="text" class="modal-coment" placeholder="Введите текст">
+        </label>
       </div>
+      <label for="checkbox">
+        <input type="checkbox" class="modal-checkbox">
+        <p>Соглашаюсь с рассылкой и принимаю Условия договора</p>
+      </label>
+      <button class="modal-button"> <span class="modal-button-text">Отправить</span> </button>
     </div>
  <script src="./js/modal.js"></script>
   </body>
