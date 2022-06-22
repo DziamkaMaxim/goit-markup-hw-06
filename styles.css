@@ -579,7 +579,13 @@ list-style: none;
     background-color: #2F303A;
     padding-bottom: 60px;
 }
-
+.footer-name-svg{
+    position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 12px;
+        fill: currentColor;
+}
 .footer-title{
         font-family: 'Raleway';
         font-style: normal;
@@ -753,7 +759,8 @@ list-style: none;
 
  }
  .modal-form{
-     position: relative;
+        position: relative;
+   
  }
  .modal-text{
    position: absolute;
