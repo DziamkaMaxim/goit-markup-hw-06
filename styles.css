@@ -579,13 +579,7 @@ list-style: none;
     background-color: #2F303A;
     padding-bottom: 60px;
 }
-.footer-name-svg{
-    position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        left: 12px;
-        fill: currentColor;
-}
+
 .footer-title{
         font-family: 'Raleway';
         font-style: normal;
@@ -734,6 +728,7 @@ list-style: none;
 
     background-color: #FFFFFF;
     border-radius: 4px;
+
 }
 .modal-close{
         width: 30px;
@@ -745,7 +740,9 @@ list-style: none;
         top: 8px;
 
  } 
- 
+ .modal-close:hover, .modal-close:focus{
+    color: #2196F3;
+ }
  .modal-title{
     font-weight: 700;
         font-size: 20px;
@@ -764,8 +761,19 @@ list-style: none;
  }
  .modal-text{
    position: absolute;
-   top: 30px;
-   left: 50px;
+  
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #757575;
+
+    margin-top: 10px;
+    margin-left: 40px;
  }
  
 .modal-types{
@@ -780,6 +788,10 @@ list-style: none;
     
     height: 40px;
 }
+.modal-form:hover, .modal-form:focus, .modal-name-svg:hover,
+.modal-name-svg:focus{
+    color: #2196F3;
+}
 .modal-coment{
         margin-top: 30px;
         margin-left: 40px;
@@ -792,11 +804,15 @@ list-style: none;
         border-radius: 4px;
 
 }
-.modal-checkbox{
-    width: 16px ;
-    height: 15px;
+.modal-name-svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+    fill: currentColor;
 
-    background-color: #212121
+    margin-left: 39px;
+    margin-top: 20px;
 }
 .modal-button{
     width: 200px;
@@ -817,6 +833,40 @@ list-style: none;
         letter-spacing: 0.06em;
     
         color: #FFFFFF;
+}
+.checkbox-text{
+         font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+
+        margin-left: 52px;
+        margin-bottom: 30px;
+}
+.checkbox-text-second{
+    color: #2196F3;
+}
+.checkbox-button{
+            width: 200px;
+            height: 50px;
+        
+            background-color: #2196F3;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            border-color: #2196F3;
+
+            display: block;
+            margin: auto;
+          
+
+}
+.checkbox-button:hover, .checkbox-button:focus{
+    background-color: #042138;
+    border-color: #042138;
 }
 /* Overlay */
 
