@@ -741,7 +741,7 @@ list-style: none;
 
  } 
  .modal-close:hover, .modal-close:focus{
-    color: #2196F3;
+    fill: #2196F3;
  }
  .modal-title{
     font-weight: 700;
@@ -760,7 +760,7 @@ list-style: none;
    
  }
  .modal-text{
-   position: absolute;
+    position: absolute;
   
 
     font-weight: 400;
@@ -775,7 +775,7 @@ list-style: none;
     margin-top: 10px;
     margin-left: 40px;
  }
- 
+
 .modal-types{
     margin-top: 30px;
     margin-left: 40px;
@@ -792,6 +792,7 @@ list-style: none;
 .modal-name-svg:focus{
     color: #2196F3;
 }
+
 .modal-coment{
         margin-top: 30px;
         margin-left: 40px;
@@ -846,6 +847,9 @@ list-style: none;
 
         margin-left: 52px;
         margin-bottom: 30px;
+}
+.checkbox-text::before{
+    
 }
 .checkbox-text-second{
     color: #2196F3;
